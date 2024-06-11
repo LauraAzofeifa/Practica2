@@ -1,0 +1,20 @@
+.container h2 {
+    font-size: 1.1em; 
+    color: #333; 
+    margin-top: 30px; 
+    margin-bottom: 10px; /* espacio después del título antes del contenido */
+}
+
+.video, .gallery {
+    margin-bottom: 20px; /* espacio después de cada sección para separación */
+}
+
+.gallery img {
+    width: 300px; 
+    margin-right: 20px; 
+    margin-bottom: 15px; 
+}
+
+.gallery {
+    margin-bottom: 20px; /* Espacio adicional antes del footer */
+}

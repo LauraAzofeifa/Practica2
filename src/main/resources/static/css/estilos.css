@@ -1,0 +1,83 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;  
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;  /* incluye padding y border en la medida */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: underline; /* subraya los enlaces */
+}
+
+aside {
+    width: 20%;
+    background-color: white;
+    padding: 20px;
+    float: left;
+    min-height: 100vh;  /* vh para que tome la altura completa de la ventana */
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+aside p {
+    text-align: justify;
+    margin: 10px 0; 
+}
+
+section {
+    width: 80%;
+    float: right;
+    padding: 20px;
+    background-color: #ddd;
+    min-height: 100%; 
+    box-sizing: border-box;
+    padding-bottom: 100px;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+
+article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+article img {
+    width: 250px; 
+    height: 150px; 
+    margin-right: 20px; /* espacio entre la imagen y el texto */
+}
+
+article h3, article a {
+    margin: 0; /* remueve los márgenes por defecto para alineamiento limpio */
+}
+
+article:last-child {
+    margin-bottom: 50px; 
+}
+
+footer {
+    clear: both;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+

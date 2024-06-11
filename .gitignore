@@ -1,0 +1,42 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+/src/main/resources/static/audio/1. FF Prologue (Opening Theme).mp3
+/src/main/resources/static/audio/01. Elden Ring.mp3
+/src/main/resources/static/audio/02. Chrono Trigger.mp3
+/src/main/resources/static/audio/03. C Prologue 1.mp3
+/src/main/resources/static/audio/1.Metal Gear Saga ~ Metal Gear Solid Main Theme.mp3
+/src/main/resources/static/audio/01 - Title Theme Zelda.mp3
+/src/main/resources/static/audio/01. BG Main Theme Part I.mp3
+/src/main/resources/static/audio/16. Kaer Morhen.mp3
+/src/main/resources/static/img/
